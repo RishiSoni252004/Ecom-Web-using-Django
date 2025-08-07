@@ -10,3 +10,4 @@ class OrderAdmin(admin.ModelAdmin):
     list_display = ["id", "full_name", "email"]
     inlines = [OrderItemInline]
     readonly_fields=("created_at",)
+ 
